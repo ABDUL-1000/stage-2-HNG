@@ -15,8 +15,10 @@ const DesktopNavbar = () => {
                        items-center p-1 backdrop-blur-lg bg-opacity-70">
           <div className='flex items-center justify-between '>
             <div className='flex space-x-1 items-center pl-1'>
+              <div className='border-border border-[0.006rem] rounded-lg p-1'>
               <Image src={logo} alt="logo" className='w-6 h-6'/>
-              <Image src={tics} alt="logo" className='w-6 h-4'/>
+              </div>
+              <Image src={tics} alt="logo" className='w-8 h-4'/>
             </div>
             <div className='flex items-center space-x-6'>
               <Link href="/AttendeeForm" className="text-white font-jejun">Event</Link>

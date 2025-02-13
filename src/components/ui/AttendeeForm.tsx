@@ -77,7 +77,7 @@ console.log(formData)
             onSuccess={handleUploadSuccess}
           >
             {({ open }) => (
-              <div className="flex flex-col items-center justify-center bg-[#052228] w-[60%] border-[0.01rem] border-border rounded-2xl mt-2 h-[10rem] cursor-pointer" onClick={() => open()}>
+              <div className="flex flex-col items-center justify-center bg-[#052228] w-[60%] border-[0.01rem] border-border rounded-2xl mt-2 h-[10rem] cursor-pointer" onClick={() => open?.()}>
                 {formData.avatarUrl ? (
                   <img src={formData.avatarUrl} alt="Uploaded Avatar" className="w-32 h-32 rounded-lg" />
                 ) : (
