@@ -37,7 +37,7 @@ const TicketSection = () => {
   };
 
   return (
-    <div className="lg:w-[50%] w-[50%] flex items-center bg-navBar lg:border-[0.01rem] border-border  rounded-3xl p-1 lg:p-10 ">
+    <div className="w-[90%] lg:w-[70%]  flex items-center bg-navBar lg:border-[0.01rem] border-border  rounded-3xl p-1 lg:p-10 ">
       <div className="   lg:gap-4 w-full max-w-4xl">
         <div className="relative border-b-[0.01rem] border-border block lg:flex lg:flex-row justify-between  items-center lg:border-b-[0.01rem] lg:border-border">
           <h1 className="relative font-jejun text-white text-[0.6rem] lg:text-2xl  tracking-wide pb-2  before:absolute before:bottom-[-3px] before:left-0 before:w-full before:h-[4px] lg:before:bg-border1">

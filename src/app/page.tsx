@@ -8,9 +8,8 @@ export default function Home() {
 
 
   return (
-    <div className='bg-deepDark  flex flex-col gap-20  items-center'>
-  <DesktopNavbar/>
-  <MobileNavbar />
+    <div className='bg-deepDark flex flex-col justify-center  items-center  '>
+ 
   <TicketSection/>
 
      

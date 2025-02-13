@@ -64,6 +64,17 @@
     @apply bg-background text-foreground;
   }
 }
+@layer base {
+  @variants {
+    border-b-[0.09rem]:border-b-[0.09rem];
+  }
 
+  @responsive {
+    .border-b-[0.09rem] {
+      border-bottom: 0.09rem solid transparent;
+      border-image: linear-gradient(to right, var(--tw-border-opacity) var(--tw-border-color) 70%, transparent) 1;
+    }
+  }
+}
 
   
