@@ -11,7 +11,7 @@ const DesktopNavbar = () => {
   return (
     <div className='hidden  lg:block'>
       <div className="flex justify-center">
-        <nav className="fixed top-4 mx-auto w-[80%] lg:w-[80%] bg-navBar shadow-sm rounded-2xl border-border border-[0.01rem] 
+        <nav className=" mx-auto w-[80%] lg:w-[80%] bg-navBar shadow-sm rounded-2xl border-border border-[0.01rem] 
                        items-center p-1 backdrop-blur-lg bg-opacity-70">
           <div className='flex items-center justify-between '>
             <div className='flex space-x-1 items-center pl-1'>

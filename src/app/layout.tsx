@@ -24,7 +24,7 @@ export default function RootLayout({
       <body 
       
         className={` antialiased`}
-      ><div className="flex flex-col gap-20   bg-deepDark">
+      ><div className="flex flex-col space-y-4 justify-center   bg-deepDark">
          <DesktopNavbar/>
          <MobileNavbar />
         {children}

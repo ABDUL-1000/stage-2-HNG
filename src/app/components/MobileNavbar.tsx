@@ -10,13 +10,16 @@ const MobileNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='lg:hidden'>
+    <div className='lg:hidden p-1'>
       {/* Centered Navbar */}
-      <div className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] max-w-[400px] bg-navBar shadow-sm border-border border-[0.01rem] 
+      <div className="  w-[100%] max-w-[400px]  bg-navBar shadow-sm border-border border-[0.01rem] 
                      backdrop-blur-lg bg-opacity-70 rounded-2xl flex justify-between items-center px-4 py-2">
         {/* Left Side - Logo (Click to open modal) */}
         <div className="flex items-center space-x-2 cursor-pointer" onClick={() => setIsOpen(true)}>
+          <div className='border-border border-[0.006rem] rounded-lg p-1'>
+            
           <Image src={logo} alt="logo" className='w-6 h-6'/>
+          </div>
           <Image src={tics} alt="logo" className='w-6 h-4'/>
         </div>
 

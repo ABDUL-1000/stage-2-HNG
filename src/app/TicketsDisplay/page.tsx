@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import bg from "@/assets/TICKET.png";
 import barcode from "@/assets/Bar Code.png";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 
 const Ticket = () => {
@@ -145,9 +147,23 @@ const Ticket = () => {
             </div>
           </div>
           <div className="flex flex-col items-center">
-               <Image src={barcode} alt="logo" className='lg:w-[15rem] lg:h-[4rem] w-[10rem] h-[3rem] absolute bottom-[1rem]'/>
+               <Image src={barcode} alt="logo" className='lg:w-[15rem] lg:h-[4rem] w-[10rem] h-[3rem] absolute bottom-[8rem] lg:bottom-[4rem]'/>
               
               </div>
+        </div>
+        
+        <div className="lg:flex  flex-col p-2 w-full items-center">
+          <div className="flex  flex-col lg:flex-row w-full justify-center items-center lg:space-x-10 gap-2 lg:gap-0">
+            <Link href="/" className="lg:w-[50%] w-full">
+            <Button className="bg-deepDark w-full hover:bg-deepDark2 text-[#24A0B5] border-[0.01rem] border-[#24A0B5]">Book Another Ticket</Button>
+            </Link>
+            <Link href="" className="lg:w-[50%] w-full">
+            <Button className="bg-[#197686]  w-full " >
+              Next
+            </Button>
+          </Link>
+       
+          </div>
         </div>
         
       </div>
