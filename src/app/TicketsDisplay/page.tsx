@@ -148,8 +148,8 @@ const Ticket = () => {
           <div className="flex flex-col items-center">
             <Image
               src={barcode}
-              alt="logo"
-              className="lg:w-[15rem] lg:h-[4rem] w-[10rem] h-[3rem] absolute bottom-[8rem] lg:bottom-[4rem]"
+              alt="Bar Code"
+              className="lg:w-[15rem] lg:h-[4rem] w-[12rem] h-[4rem] absolute bottom-[7rem] lg:bottom-[4rem]"
             />
           </div>
         </div>
@@ -162,7 +162,7 @@ const Ticket = () => {
               </Button>
             </Link>
             <Link href="" className="lg:w-[50%] w-full">
-              <Button className="bg-[#197686]  w-full ">Next</Button>
+              <Button className="bg-[#197686]  w-full ">Download Ticket</Button>
             </Link>
           </div>
         </div>
