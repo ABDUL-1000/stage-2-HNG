@@ -6,8 +6,7 @@ import DesktopNavbar from '../components/DesktopNavbar'
 const page = () => {
   return (
     <div>
-        <MobileNavbar/>
-        <DesktopNavbar/>
+      
  <div className="min-h-screen flex items-center justify-center bg-deepDark">
         <AttendeeForm />
       </div>
