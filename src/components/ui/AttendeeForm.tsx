@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { CldUploadWidget } from "next-cloudinary";
 import { FaCloudUploadAlt } from "react-icons/fa";
 import Link from "next/link";
-import msg from '@/assets/envelope.png'
+import msg from "@/assets/envelope.png";
 import Image from "next/image";
 
 interface FormData {
@@ -66,7 +66,7 @@ export default function AttendeeForm() {
 
   return (
     <div className="lg:w-[40%] w-[90%] bg-navBar lg:border-[0.01rem] border-border rounded-3xl p-1 lg:p-10">
-      <div className="gap lg:gap-4 w-full bg-navBarr rounded-3xl max-w-4xl">
+      <div className=" lg:gap-4 w-full bg-navBarr rounded-3xl max-w-4xl">
         <div className="relative border-b-[0.01rem] border-border pl-1 flex flex-row justify-between items-center">
           <h1 className="font-jejun text-white text-[0.6rem] lg:text-sm tracking-wide pb-2">
             Attendee Details
@@ -138,7 +138,11 @@ export default function AttendeeForm() {
                   <p className="text-red-400 text-sm">{errors.email}</p>
                 )}
                 <span className="absolute left-1 lg:left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
-                <Image src={msg} alt="logo" className='w-4  h-4 lg:w-5 lg:h-5 '/>
+                  <Image
+                    src={msg}
+                    alt="logo"
+                    className="w-4  h-4 lg:w-5 lg:h-5 "
+                  />
                 </span>
               </div>
             </div>
