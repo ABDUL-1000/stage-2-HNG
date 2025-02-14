@@ -42,7 +42,7 @@ const TicketSection = () => {
     <div className="w-[90%] lg:w-[70%]  flex items-center bg-navBar lg:border-[0.01rem] border-border  rounded-3xl p-1 lg:p-10 ">
       <div className="   lg:gap-4 w-full max-w-4xl">
         <div className="relative border-b-[0.01rem] border-border block lg:flex lg:flex-row justify-between  items-center lg:border-b-[0.01rem] lg:border-border">
-          <h1 className="relative font-jejun text-white text-[0.6rem] lg:text-2xl  tracking-wide pb-2  before:absolute before:bottom-[-3px] before:left-0 before:w-full before:h-[4px] lg:before:bg-border1">
+          <h1 className="relative font-jejun text-white text-[1.3rem] lg:text-2xl  tracking-wide pb-2  before:absolute before:bottom-[-3px] before:left-0 before:w-full before:h-[4px] lg:before:bg-border1">
             Ticket Selection
           </h1>
           <p className="text-white text-sm font-roboto">Step 1/3</p>
@@ -53,21 +53,21 @@ const TicketSection = () => {
               <div className="border-border space-y-5 bg-gradient-to-r  from-[#0E464F] to-[#08252B] border-[0.01rem] w-full rounded-lg p-4  flex flex-col items-center">
                 <div className=" flex flex-col items-center lg:gap-3 ">
                   <h1
-                    className={`text-white ${roadRage.className} lg:text-[62px]  text-sm   font-bold`}
+                    className={`text-white ${roadRage.className} lg:text-[62px]  text-[2rem]   font-bold`}
                   >
                     Techember Fest ”25
                   </h1>
-                  <p className="text-white text-[0.5rem] lg:text-2xl pt-1 lg:pt-0 text-center">
+                  <p className="text-white text-[1.1rem] lg:text-2xl  pt-1 lg:pt-0 text-center">
                     Join us for an unforgettable experience at [Event Name]!
                     Secure your spot now.
                   </p>
                 </div>
                 <div className=" flex flex-col lg:flex-row gap-2 text-[0.5rem] pt-1 lg:pt-0 lg:text-cente ">
-                  <p className="text-white lg:text-sm ">📍 [Event Location]</p>
+                  <p className="text-white lg:text-sm text-sm ">📍 [Event Location]</p>
                   <span className="text-white hidden lg:block lg:text-sm ">
                     | |
                   </span>
-                  <p className="text-white lg:text-sm ">
+                  <p className="text-white lg:text-sm text-sm ">
                     March 15, 2025 | 7:00 PM
                   </p>
                 </div>
@@ -75,7 +75,7 @@ const TicketSection = () => {
             </div>
           </div>
 
-          <h1 className="relative font-jejun text-white text-sm lg:text-2xl pt-3 lg:pt-5">
+          <h1 className="relative font-jejun text-white text-xl lg:text-2xl pt-3 lg:pt-5">
             Select Ticket Type:
           </h1>
           <div className="flex flex-col lg:grid lg:grid-cols-3 bg-[#08252B]  rounded-lg mt-2 items-center gap-2 p-4">
@@ -106,7 +106,7 @@ const TicketSection = () => {
             ))}
           </div>
 
-          <h1 className="relative font-jejun text-white text-sm lg:text-2xl pt-5">
+          <h1 className="relative font-jejun text-white text-xl lg:text-2xl pt-5">
             Number of Tickets:
           </h1>
           <div className="flex flex-col bg-[#08252B] rounded mt-2 items-center border-border">
@@ -145,7 +145,7 @@ const TicketSection = () => {
               Cancel
             </Button>
             <Link href="/AttendeeForm" className="w-full">
-              <Button className="bg-[#197686]  w-full" onClick={handleNext}>
+              <Button className="bg-[#197686]  w-full hover:bg-deepDark2"  onClick={handleNext}>
                 Next
               </Button>
             </Link>
